@@ -21,7 +21,7 @@ export class GameEffects {
   }
 
   @Effect()
-  loadPcs$ = this.actions$
+  loadGames$ = this.actions$
     .ofType(LOAD_GAMES)
     .pipe(
       switchMap(() =>
