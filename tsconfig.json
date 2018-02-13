@@ -12,8 +12,64 @@
       "node_modules/@types"
     ],
     "lib": [
-      "es2017",
+      "es2015",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@app/*" : ["app/*"],
+      "@env/*" : ["environments/*"],
+      "@core/*" : ["app/core/*"],
+      "@coreDirectives/*" : ["app/core/directives/*"],
+      "@coreGuards/*" : ["app/core/guards/*"],
+      "@coreInterceptors/*" : ["app/core/interceptors/*"],
+      "@coreModels/*" : ["app/core/models/*"],
+      "@coreServices/*" : ["app/core/services/*"],
+      "@coreStore/*" : ["app/core/store/*"],
+      "@coreUtils/*" : ["app/core/utils/*"],
+      "@features/*" : ["app/features/*"],
+      "@featuresGuards/*" : [
+        "app/features/home/guards/*",
+        "app/features/ecritures/guards/*"
+      ],
+      "@featuresServices/*" : [
+        "app/features/chat/services/*",
+        "app/features/dashboard/services/*",
+        "app/features/ecritures/services/*",
+        "app/features/parameters/services/*",
+        "app/features/user/services/*",
+        "app/features/home/services/*",
+        "app/features/pc/services/*"
+      ],
+      "@featuresModels/*" : [
+        "app/features/chat/models/*",
+        "app/features/dashboard/models/*",
+        "app/features/ecritures/models/*",
+        "app/features/notification/models/*",
+        "app/features/parameters/models/*",
+        "app/features/user/models/*",
+        "app/features/home/models/*",
+        "app/features/pc/models/*"
+      ],
+      "@featuresEnums/*" : [
+        "app/features/chat/enums/*",
+        "app/features/parameters/enums/*"
+      ],
+      "@featuresPipes/*" : [
+        "app/features/ecritures/pipes/*"
+      ],
+      "@featuresStore/*" : [
+        "app/features/ecritures/store/*",
+        "app/features/notification/store/*",
+        "app/features/parameters/store/*",
+        "app/features/home/store/*",
+        "app/features/pc/store/*"
+      ],
+      "@shared/*" : ["app/shared/*"],
+      "@sharedEnums/*" : ["app/shared/enums/*"],
+      "@sharedModels/*" : ["app/shared/models/*"],
+      "@sharedUtils/*" : ["app/shared/utils/*"],
+      "@sharedPipes/*" : ["app/shared/pipes/*"],
+      "@sharedValidators/*" : ["app/shared/validators/*"]
+    }
   }
 }

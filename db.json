@@ -1,0 +1,32 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "League Of Legends"
+    },
+    {
+      "id": 2,
+      "name": "Word of Warcraft"
+    },
+    {
+      "id": 3,
+      "name": "Fornite"
+    },
+    {
+      "id": 4,
+      "name": "Call Of Duty"
+    },
+    {
+      "id": 5,
+      "name": "Rocket League"
+    },
+    {
+      "id": 6,
+      "name": "Dragon Ball Z"
+    },
+    {
+      "id": 7,
+      "name": "Fifa 2016"
+    }
+  ]
+}
