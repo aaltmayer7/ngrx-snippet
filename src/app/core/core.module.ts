@@ -11,7 +11,6 @@ import {routerReducer, StoreRouterConnectingModule} from '@ngrx/router-store';
 import {RouterEffects} from './store/router.effect';
 import {StoreModule} from '@ngrx/store';
 import {ToastrModule} from 'ngx-toastr';
-import {InitComponent} from './components/init/init.component';
 import {WaitingInterceptor} from './interceptors/waiting.interceptor';
 
 @NgModule({
@@ -36,7 +35,6 @@ import {WaitingInterceptor} from './interceptors/waiting.interceptor';
   providers: [
     {provide: HTTP_INTERCEPTORS, useClass: WaitingInterceptor, multi: true}
   ],
-  declarations: [InitComponent]
 })
 
 export class CoreModule {
